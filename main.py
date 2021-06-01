@@ -1,16 +1,13 @@
-# This is a sample Python script.
+# écrire un code qui rentre des nombres et intégrer ces valeurs dans un tableau
+# liste=[] entree="" while entree!="stop": if entree.isdigit(): liste.append(int(entree))
+# entree = input("Entrez un chiffre ") print(liste)
 
-# Press Maj+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+liste=[]
+entree=""
+while entree!="stop":
+    if entree.isdigit():
+        liste.append(int(entree))
+    entree=input("Entre un nombre")
+print (liste)
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#calculer la moyenne des éléments de la liste

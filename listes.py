@@ -38,6 +38,29 @@ print(liste.sort())
 print(liste.remove(7))
 # => [0,0,3,6,7,8,8,9]
 
+#----------------------------------------------------------------------------------------------------------------------#
+# Naviguer dans une liste
+
+liste [8, 1, 3, 7, 6, 8, 9]
+>>> len(liste)
+7
+
+>>> liste[6:0:-1] # Naviguer de l'index 6 à l'index 0 (exclu) en marche arrière
+[9, 8, 6, 7, 3, 1]
+
+>>> liste[:0:-1] # Naviguer de l'extrémité droite à l'index 0 (exclu) en marche arrière
+[9, 8, 6, 7, 3, 1]
+
+>>> liste[::-1] # Naviguer d'une extémité (incluse) à l'autre (incluse) en marche arrière
+[9, 8, 6, 7, 3, 1, 8]
+
+>>> liste[6::-1] # Naviguer de l'index 6 (inclus) à l'autre extrémité (inclue) en marche arrière
+[9, 8, 6, 7, 3, 1, 8]
+
+>>> liste[6:-2:-1] # Naviguer de l'index 6 (inclus) à l'index -2 (exclu) en marche arrière.
+# vu que index-2 ==> "8" mais qu'il est exclu, résultat = "9"
+[9]
+
 ########################################################################################################################
 #                                                  EXERCICES                                                           #
 ########################################################################################################################

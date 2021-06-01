@@ -89,3 +89,13 @@ print(is_palindrome("pouet"))
 print(is_palindrome([1, 2, 3, 4, 4, 3, 2, 1]))
 print(is_palindrome([1, 3, 7, 9, 5, 4]))
 print(is_palindrome([8, 2, 8]))
+
+def is_palindrome_2(list_to_evaluate):
+    return list_to_evaluate == list_to_evaluate[::-1]
+
+print(is_palindrome_2([]))
+print(is_palindrome_2("cocoococ"))
+print(is_palindrome_2("pouet"))
+print(is_palindrome_2([1, 2, 3, 4, 4, 3, 2, 1]))
+print(is_palindrome_2([1, 3, 7, 9, 5, 4]))
+print(is_palindrome_2([8, 2, 8]))

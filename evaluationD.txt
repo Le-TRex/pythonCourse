@@ -1,0 +1,9 @@
+Claire Magisson-Bonnel - DFS20C
+
+## QCM ##
+
+Question 1 : A - int(x)
+Question 2 : C - rien
+Question 3 : D - "Je n'ai pas la monnaie" puis "Trop Cher"
+Question 4 : D - Rien
+Question 5 : B - L'indice du plus petit élément
